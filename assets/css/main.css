@@ -3880,3 +3880,48 @@ input, select, textarea {
 		}
 
 	}
+
+	#wardha-talent:hover{
+		color:blue;
+	}
+	#musical-night:hover{
+		color:blue
+	}
+
+	#reel-competition:hover{
+		color:blue
+	}
+
+	#guest-lecture:hover{
+		color:blue
+	}
+
+	 #yfp{
+		width: 600px;
+		height: 800px;
+	}
+	#poster1
+	{
+		max-width: 600px;
+		max-height: 500px;
+	} 
+	 #reel{
+		width: 500px;
+		height: 500px;
+	}  
+	@media only screen and (max-width: 600px) {
+		#reel {
+			width: 100%; /* Make the width 100% of the container */
+			height: auto; /* Maintain the aspect ratio */
+			max-width: 500px; /* Set a maximum width */
+		}
+	}
+
+
+	@media only screen and (max-width: 600px) {
+		#yfp {
+			width: 100%; /* Make the width 100% of the container */
+			height: auto; /* Maintain the aspect ratio */
+			max-width: 500px; /* Set a maximum width */
+		}
+	}
