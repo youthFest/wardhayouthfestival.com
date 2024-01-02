@@ -6,6 +6,41 @@
 -->
 <html>
 	<head>
+		<style>
+			/* Bounce animation keyframes */
+			@keyframes bounce {
+				0%, 20%, 50%, 80%, 100% {
+					transform: translateY(0);
+				}
+				40% {
+					transform: translateY(-20px);
+				}
+				60% {
+					transform: translateY(-10px);
+				}
+			}
+	
+			/* Color change on hover */
+			h1:hover {
+				color: #ff7f50; /* Change to the color you desire */
+			}
+	
+			/* Apply animations and styles */
+			.intro {
+				text-align: center;
+			}
+	
+			h1 {
+				margin: 0;
+				padding-top: 20px;
+				font-size: 2em;
+				animation: bounce 2s infinite; /* Bounce animation */
+				transition: color 0.2s ease-in-out; /* Smooth color transition on hover */
+			}
+	
+			/* Rest of your styles */
+			
+		</style>
 		<title>Wardha Youth Fest 2024</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -30,13 +65,37 @@
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
+							<h1 class="animate-fadeIn" style="color: #ff7f50;">Auditions Started</h1>
 						</header>
 						<div class="content">
 							<span class="image fill" data-position="left" "><img src="images/music.jfif" alt="" /></span>
 						</div>
 					</section>
+                  
 
-				<!-- Section -->w
+
+					<section>
+						<header>
+							<h1 style="color: #ff7f50;">Auditions</h1><h2> for Wardha's Got Talent & Reels Competition </h2>
+							<h3><a id="wardha-talent" href="https://forms.gle/82vsZRAnL3tTYVYk8" style="color: blue;">Click on this link for auditions </a></h3><br>
+							<h1><span class="image main"><img src="images/wardhasGotTalentAuditionsNeon.png" alt="" /></span>
+						</header>
+						<div class="content">
+							<h1>AUDITIONS</h1>
+							<p><strong>🌟✨ Seize the Spotlight with Wardha's Got Talent Auditions & Reels Competition! ✨🌟<br>
+	
+								🎤🕺💃 Are you ready to set the stage on fire? Auditions are started for Reels Competetion and Wardha's Got Talent🎬🌈<br>
+							</strong> </p>
+								<p><strong>🌟✨ Don't miss this chance to be part of something extraordinary! Wardha's Got Talent is your platform to showcase your magic, whether on the live stage or through captivating reels. Apply now, and let your talent be the talk of the town! 👈
+	
+									🌟✨ Wardha's Got Talent - Where Dreams Take Center Stage, On and Off Screen! ✨🌟</strong></p>
+							<span class="image main"><img src="images/poster2.png" alt="" /></span>
+	
+						
+							
+						</div>
+					</section>
+				<!-- Section -->
 					<section id="first">
 						<header>
 							<h2>ABOUT</h2>
@@ -55,6 +114,9 @@
 							<span class="image main"><img id="poster1" src="images/poster1.png" alt="" /></span>
 						</div>
 					</section>
+                
+                <!-- Section -->
+				
 
 				<!-- Section -->
 					<section>
